@@ -1479,7 +1479,7 @@ initialization
 
 finalization
   if g_MyPyEngine <> nil then
-     g_MyPyEngine.Free;
+     FreeAndNil(g_MyPyEngine);
 
 
 end.
